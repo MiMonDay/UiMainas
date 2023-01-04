@@ -60,7 +60,7 @@ function library:CreateWindow(name, version, icon)
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
 	Icon.Image = "rbxassetid://"..icon
-	Icon.ImageColor3 = Color3.fromRGB(0, 255, 135)
+	Icon.ImageColor3 = Color3.fromRGB(135, 255, 135)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
@@ -337,7 +337,7 @@ function library:CreateWindow(name, version, icon)
 			SearchIcon.Position = UDim2.new(0, 6, 0, 6)
 			SearchIcon.Size = UDim2.new(0, 18, 0, 18)
 			SearchIcon.Image = "rbxassetid://10045753138 "
-			SearchIcon.ImageColor3 = Color3.fromRGB(0, 255, 135)
+			SearchIcon.ImageColor3 = Color3.fromRGB(135, 255, 135)
 
 			Bar_3.Name = "Bar"
 			Bar_3.Parent = SearchBar
@@ -947,7 +947,7 @@ function pagebuttons:CreateSlider(name,min,max,callback)
 				EditIcon.Position = UDim2.new(0, 6, 0, 6)
 				EditIcon.Size = UDim2.new(0, 18, 0, 18)
 				EditIcon.Image = "rbxassetid://"..icon
-				EditIcon.ImageColor3 = Color3.fromRGB(0, 255, 135)
+				EditIcon.ImageColor3 = Color3.fromRGB(135, 255, 135)
 				function UpdateBox:UpdateBox(name)
 					TextInput.PlaceholderText = name
 				end
